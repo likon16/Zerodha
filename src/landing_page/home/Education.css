@@ -1,0 +1,12 @@
+.education a{
+    text-decoration: none;
+    margin-top: 1rem;
+    /* margin-bottom: 2rem; */
+}
+.education h1{
+    /* font-size: 5rem; */
+    margin-bottom: 2rem;
+}
+.education p{
+    font-size: 1.2rem;
+}
