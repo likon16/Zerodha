@@ -11,7 +11,7 @@ import OpenAcount from '../OpenAccount';
 function HomePage(){
     return (
         <>
-         <TopNav/>
+        
         <Hero/>
         <Awards/>
          <Stats/>
@@ -20,7 +20,7 @@ function HomePage(){
         
        <OpenAcount/>
        
-        <Footer/>
+        
         </>
        
        

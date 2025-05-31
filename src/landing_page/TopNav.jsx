@@ -1,14 +1,16 @@
 import React from 'react';
 import './TopNav.css';
 
+import { Link } from 'react-router-dom';
+
 function TopNav() {
   return (
     <nav className="navbar navbar-expand-lg bg-white fixed-top custom-navbar px-4">
       <div className="container-fluid">
         {/* Logo on the left */}
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <Link className="navbar-brand d-flex align-items-center" to='/home'>
           <img src="/media/image/logo.svg" alt="Logo" id="web-name" height="30" />
-        </a>
+        </Link>
 
         {/* Toggler on the right */}
         <button
@@ -27,19 +29,19 @@ function TopNav() {
         <div className="collapse navbar-collapse ms-auto" id="navbarNav">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link" href="#">Signup</a>
+              <Link className="nav-link" to='/signup'>Signup</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <Link className="nav-link" to='/about'>About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Products</a>
+              <Link className="nav-link" to='/products'>Products</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <Link className="nav-link" to='/pricing'>Pricing</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Support</a>
+              <Link className="nav-link" to='/support'>Support</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#" id='bar'><i class="fa-solid fa-bars"></i></a>

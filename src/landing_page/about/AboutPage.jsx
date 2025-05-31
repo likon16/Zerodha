@@ -5,6 +5,7 @@ function AboutPage() {
     return ( 
         <>
         <Hero/>
+        
         <Teams/>
         </>
      );

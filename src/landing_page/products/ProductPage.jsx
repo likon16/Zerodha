@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from './Hero';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
-function Universe() {
+function ProductPage() {
     return ( 
         <>
         <Hero/>
@@ -12,4 +12,4 @@ function Universe() {
      );
 }
 
-export default Universe;
+export default ProductPage;
