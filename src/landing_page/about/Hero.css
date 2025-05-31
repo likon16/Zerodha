@@ -1,0 +1,26 @@
+.row h1{
+  
+    text-align: center;
+    font-size: 2rem;
+   
+}
+.row{
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+
+.container hr{
+    opacity: 10%;
+}
+
+#para{
+    margin-left: 6rem;
+    /* font-size: 1.1rem; */
+   margin-right: 9rem;
+   line-height: 2rem;
+   font-weight: 450;
+}
+
+#para a{
+    text-decoration: none;
+}
