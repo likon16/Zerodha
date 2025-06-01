@@ -1,0 +1,18 @@
+#topSec{
+    margin-top: 9rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+#topSec h1{
+font-size: 3rem;
+padding-bottom: 1rem;
+opacity: 0.8;
+}
+#topSec h2{
+    padding-bottom: 1rem;
+   opacity: 0.7;
+    font-weight: 500;
+}
+#topSec a{
+    text-decoration: none;
+}

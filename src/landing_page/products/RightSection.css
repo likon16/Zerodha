@@ -1,0 +1,21 @@
+#rightPara{
+margin-top: 9rem;
+margin-left: 5rem;
+}
+
+
+#rightPara a{
+    text-decoration: none;
+}
+#rightPara h1{
+    margin-bottom: 2rem;
+}
+
+#rightImg{
+    margin-right: 5rem;
+}
+
+
+#rightWhole{
+    margin-top: -2rem;
+}

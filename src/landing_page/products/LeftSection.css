@@ -1,0 +1,33 @@
+#LeftSec{
+    margin-right: 4rem;
+    padding-right: 3rem;
+    padding-left: 5rem;
+  margin-top: 5.5rem;
+    width: 5rem;
+}
+
+
+#LeftSec h1{
+    margin-bottom: 2rem;
+}
+#LeftSec p{
+    /* font-size: 1.2rem; */
+    line-height: 1.8rem;
+    opacity: 0.8;
+}
+
+#LeftSec a{
+   text-decoration: none;
+   margin-bottom: 1rem;
+
+}
+
+#storeIcon img{
+   margin-top: 2rem;
+}
+
+#leftImage{
+    margin-top: 2rem;
+    margin-left: 3rem;
+
+}
