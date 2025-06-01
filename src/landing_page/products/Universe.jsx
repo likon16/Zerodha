@@ -79,6 +79,7 @@ function Universe(){
                     </div>
                 </div>
             </div>
+              <button type="button" class="btn btn-primary p-2 " style={{width:"13rem", margin:"3rem auto", fontSize:"20px", fontWeight:"20px", backgroundColor:"#387ed1"}}>Sign up for free</button>
               </div>
     )
 }

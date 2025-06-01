@@ -21,3 +21,10 @@
     height: 3rem;
     margin-bottom: 1rem;
 }
+    .container button{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+      
+    }
