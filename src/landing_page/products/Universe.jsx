@@ -2,8 +2,8 @@ import './Universe.css'
 function Universe(){
     return(
         <div className="container">
-            <div className="row text-center">
-<h2>Want to know more about our technology stack? Check out the <a href="" style={{textDecoration:"none", textAlign:"center", marginBottom:"3rem"}}>Zerodha.tech </a>blog.</h2>
+            <div className="row text-center" id='h1'>
+<h2 id='h2'>Want to know more about our technology stack? Check out the <a href="" style={{textDecoration:"none", textAlign:"center", marginBottom:"3rem"}}>Zerodha.tech </a>blog.</h2>
       <h1>The Zerodha Universe</h1>
       <p>Extend your trading and investment experience even further with our partner platforms</p>
             </div>
