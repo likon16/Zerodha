@@ -1,0 +1,30 @@
+.section1{
+    margin-top: 8rem;
+    text-align: center;
+}
+.section1 h1{
+ font-size: 3rem;
+ margin-bottom: 1.7rem;
+ opacity: 0.9;
+}
+.section1 p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-bottom: 8rem;
+}
+#section2 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#section2 col{
+    margin-left: 2rem;
+}
+#section2 img{
+    height: 50%;
+}
+#section2 h1{
+    font-size: 1.5rem;
+    
+}

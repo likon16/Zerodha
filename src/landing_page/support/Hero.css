@@ -1,0 +1,136 @@
+.main{
+    margin-top: 4.5rem;
+    background-color: #387ed1;
+    color: aliceblue;
+    margin-bottom: 2rem;
+   
+}
+#supportHero  {
+    margin-top: 4rem;
+}
+
+#supportHero h1{
+    text-align: center;
+font-size: 1.5rem;
+    
+}
+#supportHero2{
+    margin-top: -2rem;
+    text-align: center;
+      margin-left: 15rem;
+      
+}
+#supportHero2 h1{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+#supportHero2 input{
+    width: 75%;
+    height: 3.5rem;
+    margin-top: 2rem;
+    margin-left: -6.9rem;
+    
+}
+#supportHero2  a{
+    color: aliceblue;
+    font-size: large;
+    
+    
+}
+#supportlink {
+    margin-top: 2rem;
+      margin-left:17%;
+      
+}
+
+#supportlink2{
+    margin-top: 1rem;
+    margin-left: 6rem;
+
+}
+#supportlink a{
+
+    color: aliceblue;
+}
+.ol{
+    margin-top: 2rem;
+}
+.ol a{
+    margin-left: -10rem;
+    font-size: 0.5rem;
+}
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  #supportHero2 {
+    margin-left: 15rem;
+  }
+
+  #supportHero2 input {
+    margin-left: -6.9rem;
+    width: 75%;
+  }
+}
+
+/* Medium devices (tablets, 768px to 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  #supportHero2 {
+    margin-left: 5rem;
+  }
+
+  #supportHero2 input {
+    margin-left: -4rem;
+    width: 85%;
+  }
+
+  #supportlink {
+    margin-left: 10%;
+  }
+
+  #supportlink2 {
+    margin-left: 4rem;
+  }
+
+  .ol a {
+    margin-left: 0;
+    font-size: 0.7rem;
+  }
+}
+
+/* Small devices (mobiles, less than 768px) */
+@media (max-width: 767px) {
+  .main {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #supportHero h1,
+  #supportHero2 h1 {
+    font-size: 1.2rem;
+  }
+
+  #supportHero2 {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  #supportHero2 input {
+    margin-left: 0;
+    width: 90%;
+    height: 3rem;
+  }
+
+  #supportlink,
+  #supportlink2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .ol {
+    margin-top: 1rem;
+  }
+
+  .ol a {
+    margin-left: 0;
+    font-size: 0.6rem;
+  }
+}

@@ -5,9 +5,9 @@ function Stats(){
     return (
         <div className="container">
             <div className="row">
-                <div className="col-6 p-5">
+                <div className="col-5 p-5">
 
-<h1 className='mb-5'>Trust with confidence</h1>
+<h1 id='head'>Trust with confidence</h1>
 <div className="stats-div">
     <h2>Customer-first always</h2>
     <p>That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
@@ -26,8 +26,8 @@ function Stats(){
 </div>
 
                 </div>
-                <div className="img col-6 p-5">
-                    <img src="/media/image/ecosystem.png" alt=""style={{width:"100%"}} />
+                <div className="img col-6 ">
+                    <img src="/media/image/ecosystem.png" alt=""style={{width:"100%", height:"80%"}} />
                     
                         <div className='link'>
                             <a href=""> Explore our products <i class="fa-solid fa-arrow-right"></i></a>
@@ -35,6 +35,10 @@ function Stats(){
                         
                     </div>
                 </div>
+            </div>
+
+            <div className="img text-center">
+               <img src="/media/image/pressLogos.png" alt="" style={{width:"60%",marginBottom:"4rem"}} />
             </div>
         </div>
     )
